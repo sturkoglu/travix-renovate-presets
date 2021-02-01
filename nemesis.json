@@ -1,0 +1,21 @@
+{
+  "prHourlyLimit": "6",
+  "separateMinorPatch": "true",
+  "assignAutomerge": "true",
+  "assignees": ["rubenpve"],
+  "assigneesSampleSize": "1",
+  "labels": ["dependency-update"],
+  "java": {
+    "addLabels": ["java-dependency-update"]
+  },
+  "packageRules": [
+    {
+      "updateTypes": ["patch"],
+      "automerge": true
+    },
+    {
+      "datasources": ["docker"],
+      "addLabels": ["docker-dependency-update"]
+    }
+  ]
+}
