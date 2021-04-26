@@ -14,6 +14,10 @@
       "automerge": true
     },
     {
+      "matchPackagePrefixes": [ "com.squareup.okhttp3" ],
+      "groupName": "okhttp"
+    },
+    {
       "datasources": ["docker"],
       "addLabels": ["docker-dependency-update"]
     }
