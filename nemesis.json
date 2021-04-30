@@ -2,8 +2,8 @@
   "prHourlyLimit": "6",
   "separateMinorPatch": "true",
   "assignAutomerge": "true",
-  "reviewers": ["rubenpve"],
-  "reviewersSampleSize": "1",
+  "reviewers": ["rubenpve", "mw-travix"],
+  "reviewersSampleSize": "2",
   "labels": ["dependency-update"],
   "java": {
     "addLabels": ["java-dependency-update"]
