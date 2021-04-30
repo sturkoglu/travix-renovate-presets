@@ -2,7 +2,7 @@
   "prHourlyLimit": "6",
   "separateMinorPatch": "true",
   "assignAutomerge": "true",
-  "reviewers": ["rubenpve", "mw-travix"],
+  "reviewers": ["rubenpve", "mw-travix", "dierotravix"],
   "reviewersSampleSize": "2",
   "labels": ["dependency-update"],
   "java": {
