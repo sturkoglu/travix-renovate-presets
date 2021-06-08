@@ -7,7 +7,7 @@
   "packageRules": [
     {
       "matchPackagePatterns": [
-        "Travix.Common.*"
+        "*"
       ],
       "groupName": "all dependencies",
       "groupSlug": "all"
