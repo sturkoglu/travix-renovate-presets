@@ -1,3 +1,16 @@
 {
-  "ignorePaths": []
+  "ignorePaths": [],
+  "labels": ["dependency-update"],
+  "reviewers": ["jbroumels" ],
+  "reviewersSampleSize": "1",
+  "prHourlyLimit": 0,
+  "packageRules": [
+    {
+      "matchPackagePatterns": [
+        "Travix.Common.*"
+      ],
+      "groupName": "all dependencies",
+      "groupSlug": "all"
+    }
+  ]
 }
