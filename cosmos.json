@@ -1,7 +1,7 @@
 {
   "ignorePaths": [],
   "labels": ["dependency-update"],
-  "reviewers": ["jbroumels" ],
+  "reviewers": ["jbroumels", "gparmigiani", "ysobralrandes" ],
   "reviewersSampleSize": "1",
   "prHourlyLimit": 0,
   "packageRules": [
