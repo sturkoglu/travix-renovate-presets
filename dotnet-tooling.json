@@ -1,0 +1,6 @@
+{
+  "ignorePaths": [],
+  "labels": ["dependency-update"],
+  "reviewers": ["mvincze", "jbroumels" ],
+  "reviewersSampleSize": "2"
+}
