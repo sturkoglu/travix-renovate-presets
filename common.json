@@ -1,0 +1,10 @@
+{
+  "regexManagers": [
+    {
+      "fileMatch": ["^\\.estafette.yaml"],
+      "matchStrings": ["image:\\s+(?<currentValue>.*?)\\n"],
+      "depNameTemplate": "docker",
+      "datasourceTemplate": "docker"
+    }
+  ]
+}
