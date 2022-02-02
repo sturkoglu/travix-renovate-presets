@@ -1,7 +1,4 @@
 {
-  "extends": [
-    "github>Travix-International/travix-renovate-presets:common"
-  ],
   "prHourlyLimit": "6",
   "separateMinorPatch": "true",
   "assignAutomerge": "true",
