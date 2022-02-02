@@ -7,22 +7,9 @@
   "assignAutomerge": "true",
   "reviewers": ["rubenpve", "mw-travix", "dierotravix", "javier_diaz"],
   "reviewersSampleSize": "2",
-  "labels": ["dependency-update"],
-  "java": {
-    "addLabels": ["java-dependency-update"]
-  },
   "packageRules": [
     {
       "updateTypes": ["patch"],
       "automerge": true
-    },
-    {
-      "matchPackagePrefixes": [ "com.squareup.okhttp3" ],
-      "groupName": "okhttp"
-    },
-    {
-      "datasources": ["docker"],
-      "addLabels": ["docker-dependency-update"]
     }
-  ]
 }
