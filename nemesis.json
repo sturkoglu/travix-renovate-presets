@@ -2,8 +2,7 @@
   "prHourlyLimit": "6",
   "separateMinorPatch": "true",
   "assignAutomerge": "true",
-  "reviewers": ["rubenpve", "mw-travix", "javier_diaz"],
-  "reviewersSampleSize": "2",
+  "reviewers": ["rubenpve", "mw-travix", "javier_diaz", "amohammed", "ungureanusergiu"],
   "packageRules": [
     {
       "updateTypes": ["patch"],
