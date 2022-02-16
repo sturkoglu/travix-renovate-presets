@@ -3,7 +3,7 @@
     "github>Travix-International/travix-renovate-presets:common",
     "default:automergeDigest",
     "default:automergePatch",
-  ]
+  ],
   "prHourlyLimit": "6",
   "assignAutomerge": "true",
   "reviewers": ["rubenpve", "mw-travix", "javier_diaz", "amohammed", "ungureanusergiu"]
