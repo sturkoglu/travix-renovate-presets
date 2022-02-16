@@ -1,4 +1,7 @@
 {
+  "extends": [
+    "github>Travix-International/travix-renovate-presets:common"
+  ],
   "ignorePaths": [],
   "labels": ["dependency-update"],
   "reviewers": ["mvincze", "jbroumels" ],
