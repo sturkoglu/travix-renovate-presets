@@ -1,12 +1,11 @@
 {
+  "extends": [
+    "config:base",
+    "github>Travix-International/travix-renovate-presets:common",
+    "default:automergeDigest",
+    "default:automergePatch",
+  ]
   "prHourlyLimit": "6",
-  "separateMinorPatch": "true",
   "assignAutomerge": "true",
-  "reviewers": ["rubenpve", "mw-travix", "javier_diaz", "amohammed", "ungureanusergiu"],
-  "packageRules": [
-    {
-      "updateTypes": ["patch"],
-      "automerge": true
-    }
-    ]
+  "reviewers": ["rubenpve", "mw-travix", "javier_diaz", "amohammed", "ungureanusergiu"]
 }
