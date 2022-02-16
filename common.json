@@ -1,10 +1,11 @@
 {
-  "regexManagers": [
-    {
-      "fileMatch": ["^\\.estafette.yaml"],
-      "matchStrings": ["image:\\s+(?<currentValue>.*?)\\n"],
-      "depNameTemplate": "docker",
-      "datasourceTemplate": "docker"
-    }
-  ]
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base",
+    "docker:enableMajor",
+    "docker:pinDigests"
+  ],
+  "droneci": {
+    "fileMatch": ["^\\.estafette\\.yaml$"]
+  }
 }
