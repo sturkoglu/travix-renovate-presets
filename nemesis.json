@@ -2,7 +2,7 @@
   "extends": [
     "github>Travix-International/travix-renovate-presets:common",
     "default:automergeDigest",
-    "default:automergePatch",
+    "default:automergePatch"
   ],
   "prHourlyLimit": "6",
   "assignAutomerge": "true",
