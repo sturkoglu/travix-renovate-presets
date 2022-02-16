@@ -1,6 +1,5 @@
 {
   "extends": [
-    "config:base",
     "github>Travix-International/travix-renovate-presets:common",
     "default:automergeDigest",
     "default:automergePatch",
