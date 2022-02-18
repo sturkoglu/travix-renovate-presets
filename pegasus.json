@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "github>Travix-International/travix-renovate-presets:common"
+  ],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    }
+  ],
+  "timezone": "Europe/Amsterdam",
+  "schedule": ["after 6am and before 9am every weekday"],
+  "ignorePaths": [],
+  "prHourlyLimit": "6",
+  "assignAutomerge": "true",
+  "reviewers": ["rligtenberg", "sbeyazit-travix", "Pola_Edward", "matsantos", "rubendts","gjambhulkar","cumhurduzlu"]
+}
