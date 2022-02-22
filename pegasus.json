@@ -4,8 +4,22 @@
   ],
   "packageRules": [
     {
-      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "matchPackagePatterns": ["*"],
+      "groupName": "all dependencies minor & patches",
+      "matchUpdateTypes": ["minor", "patch"],
       "automerge": true
+    },
+    {
+      "matchPackagePatterns": ["*"],
+      "groupName": "Pin & digest all dependencies",
+      "matchUpdateTypes": ["pin", "digest"],
+      "automerge": true
+    },
+    {
+      "matchPackagePatterns":["extensions\/dotnet", "mcr.microsoft.com\/dotnet*"],
+      "groupName": "Dotnet version updates",
+      "matchUpdateTypes": ["major"],
+      "automerge": false
     }
   ],
   "timezone": "Europe/Amsterdam",
@@ -13,5 +27,6 @@
   "ignorePaths": [],
   "prHourlyLimit": "6",
   "assignAutomerge": "true",
+  "automergeStrategy": "fast-forward",
   "reviewers": ["rligtenberg", "sbeyazit-travix", "Pola_Edward", "matsantos", "rubendts","gjambhulkar","cumhurduzlu"]
 }
