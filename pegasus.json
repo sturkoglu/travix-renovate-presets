@@ -29,5 +29,5 @@
   "prHourlyLimit": "10",
   "assignAutomerge": "true",
   "automergeStrategy": "fast-forward",
-  "reviewers": ["rligtenberg", "sbeyazit-travix", "Pola_Edward", "matsantos", "rubendts","gjambhulkar","cumhurduzlu"]
+  "reviewers": ["rligtenberg", "sbeyazit-travix", "Pola_Edward", "matsantos", "rubendts","gjambhulkar","sturkoglu"]
 }
