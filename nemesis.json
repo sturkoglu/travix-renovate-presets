@@ -5,6 +5,5 @@
     "default:automergePatch"
   ],
   "prHourlyLimit": "6",
-  "assignAutomerge": "true",
   "reviewers": ["rubenpve", "mw-travix", "javier_diaz", "ungureanusergiu", "amohammed1234"]
 }
