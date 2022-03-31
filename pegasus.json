@@ -6,8 +6,8 @@
   "packageRules": [
     {
       "matchPackagePatterns": ["*"],
-      "groupName": "all dependencies minor & patches",
-      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "all dependencies minor",
+      "matchUpdateTypes": ["minor"],
       "automerge": true
     },
     {
@@ -21,10 +21,16 @@
       "groupName": "Dotnet version updates",
       "matchUpdateTypes": ["major"],
       "automerge": false
+    },
+    {
+      "matchPackagePatterns": ["*"],
+      "groupName": "Ingnore patches",
+      "matchUpdateTypes": ["patch"],
+      "enabled": false
     }
   ],
   "timezone": "Europe/Amsterdam",
-  "schedule": ["after 6am and before 9am every weekday"],
+  "schedule": ["after 6am and before 9am on Monday"],
   "ignorePaths": [],
   "prHourlyLimit": "10",
   "assignAutomerge": "true",
